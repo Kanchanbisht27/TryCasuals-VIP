@@ -6,11 +6,9 @@ import NavBar from "./NavBar";
 import Footer from "./Footer";
 import NotFound from "./NotFound";
 import LoginPage from "./LoginPage";
-import Button from "./Button";
 import SignUp from "./SignUp";
 import ForgotPassword from "./ForgetPassword";
 import ResetPassword from "./ResetPassword";
-import A from "./A";
 
 function App() {
   const savedDataString = localStorage.getItem("my-cart") || "{}";
@@ -32,7 +30,6 @@ function App() {
 
   return (
     <div className="flex flex-col h-screen overflow-scroll bg-gray-200">
-      <A></A>
       <NavBar productCount={totalCount} />
       <div className="grow">
         <Routes>

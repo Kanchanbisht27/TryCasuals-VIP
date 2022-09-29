@@ -1,6 +1,6 @@
 import React from "react";
 
 function MyLink() {
-  return()
+  return <div></div>;
 }
 export default MyLink;

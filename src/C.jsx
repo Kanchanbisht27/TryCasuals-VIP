@@ -7,7 +7,7 @@ function C({ count, updateCount }) {
   }
 
   return (
-    <div className="flex p-5 item-center bg-sky-500">
+    <div className="p-5 bg-sky-500">
       <h1>Count is {count} </h1>
       <Button onClick={increment}>Increment</Button>
     </div>
